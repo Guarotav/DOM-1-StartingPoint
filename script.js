@@ -31,7 +31,16 @@ let seconds = document.querySelectorAll(".second");
 seconds.forEach((item, index) => {
   console.log(`.second item ${index + 1}:`, item);
 });
+//- [7] Remove the class main on the div with a class of footer.
+const footer = document.querySelector('.footer');
+footer.classList.remove("main");
 
+//- [8] Create a new li element.
+const newLi = document.createElement("li");
+newLi.textContent="four";
+//- [9] Give the li the text "four".
+const ul = document.querySelector("ul");
+ul.appendChild(newLi);
 
 
 
