@@ -37,10 +37,10 @@ footer.classList.remove("main");
 
 //- [8] Create a new li element.
 const newLi = document.createElement("li");
-newLi.textContent="four";
+
 //- [9] Give the li the text "four".
-const ul = document.querySelector("ul");
-ul.appendChild(newLi);
+newLi.textContent="four";
+
 
 
 
