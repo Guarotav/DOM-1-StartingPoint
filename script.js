@@ -15,6 +15,30 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the div with a class of footer.
 */
 
+// 1) Select the section with an id of container without using querySelector.
+let selectContainer = document.getElementById("container");
+
+console.log(selectContainer);
+
+// 2) Select the section with an id of container using querySelector.
+let querySelectContainer = document.querySelector("#container");
+
+console.log(querySelectContainer);
+
+// 3) Select all of the list items with a class of "second".
+let seconds = document.querySelectorAll(".second");
+
+seconds.forEach((item, index) => {
+  console.log(`.second item ${index + 1}:`, item);
+});
+
+
+
+
+
+
+
+
 // Try rewriting this without using querySelector
 const header = document.querySelector("#container");
 console.log("header", header);
