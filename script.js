@@ -17,4 +17,16 @@ console.log("Hello! If you see this, the script is working.");
 - [ ] Remove the div with a class of footer.
 */
 
+// 3
+const thirdItem = document.querySelector('ol li.third');
+console.log("List item with a class of third inside of the ol tag: ", thirdItem.textContent);
+
+const container = document.getElementById("container").innerHTML = "Hello!";
+console.log("Give the section with an id of container the text 'Hello!': ", container);
+
+const divFooter = document.getElementsByClassName("footer")[0];
+divFooter.classList.add('main');
+console.log("Add the class main to the div with a class of footer", divFooter);
+
+
 
