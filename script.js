@@ -34,15 +34,15 @@ seconds.forEach((item, index) => {
   console.log(`.second item ${index + 1}:`, item);
 });
 
-// 4
+// 4) Select a list item with a class of third, but only the list item inside of the ol tag.
 const thirdItem = document.querySelector('ol li.third');
 console.log("List item with a class of third inside of the ol tag: ", thirdItem.textContent);
 
-// 5
+// 5) Give the section with an id of container the text "Hello!".
 const container = document.getElementById("container").innerHTML = "Hello!";
 console.log("Give the section with an id of container the text 'Hello!': ", container);
 
-// 6
+// 6) Add the class main to the div with a class of footer.
 const divFooter = document.getElementsByClassName("footer")[0];
 divFooter.classList.add('main');
 console.log("Add the class main to the div with a class of footer", divFooter);
